@@ -17,7 +17,7 @@ public class DisplayJoke extends AppCompatActivity {
         tvJoke = findViewById(R.id.tv_joke);
 
         Intent intent = getIntent();
-        String joke = intent.getStringExtra("key");
+        String joke = intent.getStringExtra("GCE");
         tvJoke.setText(joke);
 
 
