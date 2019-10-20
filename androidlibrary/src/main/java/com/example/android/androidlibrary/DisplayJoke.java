@@ -19,7 +19,5 @@ public class DisplayJoke extends AppCompatActivity {
         Intent intent = getIntent();
         String joke = intent.getStringExtra("GCE");
         tvJoke.setText(joke);
-
-
     }
 }

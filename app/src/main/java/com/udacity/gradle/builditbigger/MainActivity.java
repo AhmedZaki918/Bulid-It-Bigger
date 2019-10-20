@@ -17,7 +17,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
     }
 
     @Override
@@ -43,7 +42,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void tellJoke(View view) {
-
         new EndpointsAsyncTask().execute(new Pair<Context, String>(this, "Manfred"));
     }
 }
